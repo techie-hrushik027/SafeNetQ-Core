@@ -1,0 +1,18 @@
+{
+  "name": "safenetq-core-main",
+  "version": "1.0.0",
+  "description": "The project monitors various parameters like current, impedance, and others to detect fault at power line and either maually or automatically shut it down # SafeNetQ-Core SafeNetQ: An loT edge protection system using ESP32 and Machine Learning to detect High Impedance Faults (HIF), executing sub-50ms relay trips alongside live MQTT cloud telemetry.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mqtt": "^5.15.2",
+    "ws": "^8.21.3"
+  }
+}

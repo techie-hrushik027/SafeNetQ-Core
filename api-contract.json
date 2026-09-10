@@ -1,0 +1,18 @@
+{
+  "telemetry": {
+    "timestamp": "2026-08-23T16:04:35Z",
+    "voltage_rms": 230.5,
+    "current_rms": 5.2,
+    "current_peak": 7.3
+  },
+  "inference": {
+    "fault_status": "Normal", 
+    "thd": 2.1,
+    "crest_factor": 1.41,
+    "strike_count": 0
+  },
+  "device_state": {
+    "relay_closed": true,
+    "lockout_active": false
+  }
+}
