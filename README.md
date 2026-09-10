@@ -43,25 +43,34 @@ flowchart LR
 
 ## Current Implementation Status
 
-### Completed
+### Implemented
 
-- Live dashboard interface for power-system monitoring
-- Device cards and status panels for grid nodes
-- Geographic map view for feeder and substation simulated locations
-- Real-time simulated telemetry for voltage and current
-- Fault detection highlighting with red/green operational state
-- Node management features to add and remove devices
-- MQTT/WebSocket middleware for streaming telemetry
-- JSON telemetry contract for payload structure and fault state expectations
+- Frontend dashboard for power-system monitoring
+- Geographic network view for simulated grid locations
+- Device health and operational status panels
+- Simulated voltage/current telemetry generation
+- Fault-state highlighting for operator visibility
+- Node management tools for adding and removing devices
+- MQTT/WebSocket middleware prototype for telemetry streaming
+- JSON contract for telemetry and system payload structure
+- Local project setup and GitHub-ready documentation
 
-### In Progress / Planned
+### In Progress / Pending
 
-- ESP32 hardware integration and live field data acquisition
-- Real machine-learning-based fault classification
-- Automated relay trip logic and interlock handling
-- Persistent database storage for historical events
-- Authentication and role-based access control
-- Cloud deployment and remote observability
+- ESP32 hardware integration and sensing layer
+- Real AC signal acquisition and calibration
+- Voltage and current measurement validation on hardware
+- High-impedance fault detection logic using waveform features
+- Relay trip and fail-safe protection logic
+- Reclose and lockout sequence logic
+- GSM backup alert path and communication layer
+- Secure cloud deployment setup for MQTT and dashboard services
+- Machine-learning model training and threshold tuning
+- End-to-end product validation on physical line hardware
+
+### Product Positioning
+
+This repository currently represents the frontend and telemetry-prototype layer of the SafeNetQ product vision. The actual embedded hardware protection system, relay-based fault handling, and real-world power protection logic are still under active development and are not yet fully integrated into this codebase.
 
 ## Tech Stack
 
@@ -153,6 +162,33 @@ Open the app at:
 http://localhost:3000
 ```
 
+## Implemented vs Pending
+
+### Implemented
+
+- React-based monitoring dashboard
+- Simulated electrical telemetry model
+- Geo-visualization of distributed nodes
+- Device management UI
+- MQTT/WebSocket data stream prototype
+- Dashboard documentation and startup flow
+
+### Pending
+
+- ESP32 hardware integration
+- Real AC sensing and calibration
+- Embedded signal processing for electrical faults
+- HIF classification model and thresholds
+- Relay-driven protection logic
+- Reclose and lockout sequence implementation
+- GSM alert channel
+- Cloud deployment pipeline with secure configuration
+- End-to-end field validation
+
+## Product Positioning
+
+This project is currently a frontend-first prototype and monitoring interface for the SafeNetQ product vision. It demonstrates the monitoring and visualization layer, but the actual hardware-based protection system is still in progress and has not yet been fully integrated into the repository.
+
 ## Use Cases
 
 - Smart-substation monitoring
@@ -163,7 +199,7 @@ http://localhost:3000
 
 ## Resume-Friendly Project Summary
 
-SafeNetQ-Core is a power-grid monitoring and fault-detection project built around a live operator dashboard for electrical infrastructure. It simulates distributed line nodes, visualizes voltage/current behavior, highlights fault conditions, and provides a Node.js MQTT/WebSocket bridge for real-time telemetry streaming. The project demonstrates a practical smart-grid monitoring workflow suitable for IoT-based power protection systems, utilities, and energy analytics applications.
+SafeNetQ-Core is an ongoing smart-grid monitoring and fault-detection project focused on building a real-time protection dashboard for electrical infrastructure. The current codebase demonstrates a frontend monitoring interface and simulated telemetry architecture, while the embedded hardware sensing, fault-classification logic, and relay-based protection layer remain under active development. The project is positioned as a prototype industrial IoT solution for power protection and grid monitoring, with hardware integration and real protection logic planned as the next major milestones.
 
 ## Roadmap
 
