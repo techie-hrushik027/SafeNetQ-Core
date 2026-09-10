@@ -211,7 +211,7 @@ SafeNetQ-Core is an ongoing smart-grid monitoring and fault-detection project fo
 
 ## License
 
-This repository is currently intended for educational, prototype, and research-oriented development.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
