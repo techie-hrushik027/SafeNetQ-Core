@@ -173,6 +173,12 @@ SafeNetQ-Core is a power-grid monitoring and fault-detection project built aroun
 4. Historical logs and analytics database
 5. Secure industrial deployment and cloud monitoring
 
+## Roles
+Hrushikesh Kapre - Planning, pipelining and integration
+Mitali Agrawal - Backend
+Raghav Singh - Frontend
+Aarushi Tyagi - Research, Hardware design and integration
+
 ## License
 
 This repository is currently intended for educational, prototype, and research-oriented development.
